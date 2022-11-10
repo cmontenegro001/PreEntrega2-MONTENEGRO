@@ -1,0 +1,307 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Agency FB";
+  color: rgb(0, 0, 0);
+}
+
+main {
+  background-color: rgb(0, 0, 0);
+}
+
+.logo {
+  padding-left: 10px;
+  display: inline;
+}
+
+.logo-letters {
+  display: inline;
+  font-family: "Aclonica";
+  width: 240px;
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  font-weight: 200;
+}
+
+.h1-span {
+  font-weight: 800;
+  font-size: small;
+}
+
+header {
+  height: 67px;
+  width: 100%;
+  background-color: rgba(236, 236, 236, 0.966);
+}
+
+nav {
+  display: inline;
+  float: right;
+  margin-top: 40px;
+  margin-right: 450px;
+  letter-spacing: 2px;
+}
+
+nav li {
+  display: inline;
+  padding: 15px;
+}
+
+.hero {
+  width: 100%;
+  height: 550px;
+  background: url(../assets/images/hero.jpg) no-repeat center/cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.carousel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.img-carousel-1 {
+  width: 444px;
+  height: 345px;
+  padding-right: 65px;
+}
+
+.img-carousel-2 {
+  width: 444px;
+  height: 345px;
+  padding-left: 65px;
+}
+
+.carousel-text-1 h3,
+.carousel-text-1 p {
+  font-family: "Roboto", sans-serif;
+  padding-left: 65px;
+  color: aliceblue;
+}
+
+.carousel-text-2 h3,
+.carousel-text-2 p {
+  font-family: "Roboto", sans-serif;
+  padding-right: 100px;
+  color: aliceblue;
+}
+
+#ejemplos {
+  display: flex;
+  margin-top: 100px;
+}
+.ejemplos {
+  width: 267px;
+  height: 715px;
+  padding: 1px;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.geo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.geo-text {
+  font-family: "Roboto", sans-serif;
+  padding-left: 80px;
+  color: aliceblue;
+}
+
+.geo-text ul li {
+  line-height: 4em;
+}
+.map {
+  padding-right: 100px;
+}
+
+.footer-logos img {
+  width: 20px;
+  height: 20px;
+}
+
+.footer-container {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  background-color: rgb(117, 117, 117);
+}
+
+.texto-footer {
+  font-family: "Roboto", sans-serif;
+}
+
+.footer-logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.footer-logos img {
+  margin: 25px;
+}
+
+#contacto-footer {
+  font-family: "Roboto", sans-serif;
+  padding-left: 30px;
+}
+
+.footer-logos a:hover {
+  background-color: rgb(61, 61, 61);
+}
+
+nav ul li a:hover {
+  background-color: rgb(133, 133, 133);
+  border-radius: 8px;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  padding: 40px;
+}
+
+.videos-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.videos {
+  width: 633px;
+  height: 402px;
+}
+
+.pictures img {
+  width: 435px;
+  height: 500px;
+}
+
+p {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  padding-left: 10px;
+}
+
+.about-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-us img {
+  justify-content: center;
+
+  margin: 10px;
+  border-color: white;
+  border-radius: 20px;
+  border-style: double;
+  width: 1314px;
+  height: 410px;
+}
+
+.our-tech {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.our-tech img {
+  padding: 5px;
+}
+
+.about-us-video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.about-us-video video {
+  width: 763px;
+  height: 402px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 4px;
+  justify-content: space-around;
+}
+
+.contact-logos {
+  padding-right: 200px;
+}
+
+.contact-logos img {
+  width: 40px;
+  height: 40px;
+}
+
+.ansel {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-right: 120px;
+  margin-top: 30px;
+  padding-bottom: 100px;
+}
+
+.ansel img {
+  width: 320px;
+  height: 402px;
+}
+
+cite {
+  color: white;
+  align-self: center;
+}
+
+.input {
+  width: 320px;
+  border-radius: 6px;
+  background-color: rgba(58, 58, 58, 0.349);
+  color: white;
+}
+
+summary,
+h3 {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  padding-left: 20px;
+}
+
+details ul li {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  padding-left: 30px;
+}
