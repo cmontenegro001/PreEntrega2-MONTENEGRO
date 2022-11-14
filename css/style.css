@@ -310,14 +310,15 @@ details ul li {
   height: 100%;
   width: 100%;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-items: center;
+
   grid-gap: 15px;
   padding: 0px 15px;
 }
 
 .hire-us-main {
-  height: 100vh;
+  height: 110vh;
   background-image: linear-gradient(
     black,
     rgb(27, 27, 27),
@@ -452,7 +453,8 @@ details ul li {
   }
 
   .hire-us-main {
-    height: 2000px;
+    height: 2200px;
+    width: 100%;
   }
 }
 
