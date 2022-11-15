@@ -390,7 +390,7 @@ details ul li {
     justify-content: center;
     align-items: center;
     max-width: 100%;
-    font-size: 15px;
+    font-size: 9px;
     padding-left: 0;
   }
 
@@ -401,6 +401,7 @@ details ul li {
 
   .logo-letters {
     width: 30px;
+    font-size: 15px;
   }
 
   .footer-container {
@@ -455,6 +456,82 @@ details ul li {
   .hire-us-main {
     height: 2350px;
     width: 100%;
+  }
+
+  div h3 {
+    font-size: 10px;
+  }
+
+  .footer-logos {
+    flex-direction: column;
+    margin: unset;
+  }
+
+  .footer-container {
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-container p {
+    margin: unset;
+    font-size: 10px;
+  }
+
+  .footer-container img {
+    margin: unset;
+  }
+
+  .footer-container h3 {
+    padding: 10px;
+  }
+
+  #contacto-footer {
+    padding: 15px;
+  }
+
+  .geo-text {
+    padding: unset;
+    font-size: 10px;
+    max-width: 100%;
+  }
+
+  h2.logo-letters {
+    padding: unset;
+    font-size: 7px;
+  }
+
+  .h1-span {
+    font-size: 7px;
+  }
+
+  img.logo {
+    padding: unset;
+    width: 30px;
+    height: 30px;
+  }
+
+  .geo-text ul {
+    padding: unset;
+  }
+
+  .contact-logos {
+    padding: 100px;
+  }
+
+  .contact-logos p {
+    padding: unset;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  .ansel {
+    padding-left: 135px;
   }
 }
 
