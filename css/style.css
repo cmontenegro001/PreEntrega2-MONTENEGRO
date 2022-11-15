@@ -107,14 +107,14 @@ nav li {
 
 #ejemplos {
   display: flex;
+  flex-direction: row;
+  justify-content: center;
   margin-top: 100px;
 }
 .ejemplos {
   width: 267px;
   height: 715px;
   padding: 1px;
-  flex-direction: row;
-  justify-content: center;
 }
 
 .geo-container {
