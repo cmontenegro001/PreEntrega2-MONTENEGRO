@@ -1,63 +1,86 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 body {
-  background-color: rgb(255, 255, 255);
-}
+  background-color: white; }
 
 ul {
-  list-style-type: none;
-}
+  list-style-type: none; }
 
 a {
   text-decoration: none;
   font-family: "Agency FB";
-  color: rgb(0, 0, 0);
-}
+  color: black; }
 
 main {
-  background-color: rgb(0, 0, 0);
-}
+  background-color: black; }
+
+* {
+  margin: 0;
+  padding: 0; }
 
 .logo {
   padding-left: 10px;
-  display: inline;
-}
+  display: inline; }
 
 .logo-letters {
   display: inline;
   font-family: "Aclonica";
   width: 240px;
-  color: rgb(0, 0, 0);
+  color: black;
   font-size: 25px;
-  font-weight: 200;
-}
+  font-weight: 200; }
 
 .h1-span {
   font-weight: 800;
-  font-size: small;
-}
+  font-size: small; }
 
 header {
   height: 67px;
   width: 100%;
-  background-color: rgba(236, 236, 236, 0.966);
-}
+  background-color: rgba(236, 236, 236, 0.966); }
 
 nav {
   display: inline;
   float: right;
   margin-top: 40px;
   margin-right: 450px;
-  letter-spacing: 2px;
-}
+  letter-spacing: 2px; }
 
 nav li {
   display: inline;
-  padding: 15px;
-}
+  padding: 15px; }
+
+.footer-logos img {
+  width: 20px;
+  height: 20px; }
+
+.footer-container {
+  width: 100%;
+  min-height: 90px;
+  display: flex;
+  background-color: #757575; }
+
+.texto-footer {
+  font-family: "Roboto", sans-serif; }
+
+.footer-logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px; }
+
+.footer-logos img {
+  margin: 25px; }
+
+#contacto-footer {
+  font-family: "Roboto", sans-serif;
+  padding-left: 30px; }
+
+.footer-logos a:hover {
+  background-color: #3d3d3d; }
+
+nav ul li a:hover {
+  background-color: #858585;
+  border-radius: 8px; }
 
 .hero {
   width: 100%;
@@ -68,202 +91,135 @@ nav li {
   align-items: center;
   justify-content: center;
   color: white;
-  font-family: "Roboto", sans-serif;
-}
+  font-family: "Roboto", sans-serif; }
 
 .carousel {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-top: 40px;
-}
+  margin-top: 40px; }
 
 .img-carousel-1 {
   width: 444px;
   height: 345px;
-  padding-right: 65px;
-}
+  padding-right: 65px; }
 
 .img-carousel-2 {
   width: 444px;
   height: 345px;
-  padding-left: 65px;
-}
+  padding-left: 65px; }
 
 .carousel-text-1 h3,
 .carousel-text-1 p {
   font-family: "Roboto", sans-serif;
   padding-left: 65px;
-  color: aliceblue;
-}
+  color: aliceblue; }
 
 .carousel-text-2 h3,
 .carousel-text-2 p {
   font-family: "Roboto", sans-serif;
   padding-right: 100px;
-  color: aliceblue;
-}
+  color: aliceblue; }
 
 #ejemplos {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 100px;
-}
+  margin-top: 100px; }
+
 .ejemplos {
   width: 267px;
   height: 715px;
-  padding: 1px;
-}
+  padding: 1px; }
 
 .geo-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-top: 150px;
-}
+  margin-top: 150px; }
 
 .geo-text {
   font-family: "Roboto", sans-serif;
   padding-left: 80px;
-  color: aliceblue;
-}
+  color: aliceblue; }
 
 .geo-text ul li {
-  line-height: 4em;
-}
+  line-height: 4em; }
+
 .map {
-  padding-right: 100px;
-}
-
-.footer-logos img {
-  width: 20px;
-  height: 20px;
-}
-
-.footer-container {
-  width: 100%;
-  min-height: 90px;
-  display: flex;
-  background-color: rgb(117, 117, 117);
-}
-
-.texto-footer {
-  font-family: "Roboto", sans-serif;
-}
-
-.footer-logos {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  margin-left: 10px;
-}
-
-.footer-logos img {
-  margin: 25px;
-}
-
-#contacto-footer {
-  font-family: "Roboto", sans-serif;
-  padding-left: 30px;
-}
-
-.footer-logos a:hover {
-  background-color: rgb(61, 61, 61);
-}
-
-nav ul li a:hover {
-  background-color: rgb(133, 133, 133);
-  border-radius: 8px;
-}
+  padding-right: 100px; }
 
 h2 {
   font-family: "Roboto", sans-serif;
   color: white;
-  padding: 40px;
-}
+  padding: 40px; }
 
 .videos-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-}
+  justify-content: space-around; }
 
 .videos {
   width: 633px;
-  height: 402px;
-}
+  height: 402px; }
 
 .pictures img {
   width: 435px;
-  height: 500px;
-}
+  height: 500px; }
 
 p {
   color: white;
   font-family: "Roboto", sans-serif;
-  padding-left: 10px;
-}
+  padding-left: 10px; }
 
 .about-us {
   display: flex;
   flex-direction: column;
-  align-items: center;
-}
+  align-items: center; }
 
 .about-us img {
   justify-content: center;
-
   margin: 10px;
   border-color: white;
   border-radius: 20px;
   border-style: double;
   width: 1314px;
-  height: 410px;
-}
+  height: 410px; }
 
 .our-tech {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: flex-start;
-}
+  align-items: flex-start; }
 
 .our-tech img {
-  padding: 5px;
-}
+  padding: 5px; }
 
 .about-us-video {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
-}
+  padding: 20px; }
 
 .about-us-video video {
   width: 763px;
-  height: 402px;
-}
+  height: 402px; }
 
 .form-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   padding: 4px;
-  justify-content: space-around;
-}
+  justify-content: space-around; }
 
 .contact-logos {
-  padding-right: 200px;
-}
+  padding-right: 200px; }
 
 .contact-logos img {
   width: 40px;
-  height: 40px;
-}
+  height: 40px; }
 
 .ansel {
   display: flex;
@@ -273,38 +229,32 @@ p {
   flex-wrap: wrap;
   padding-right: 120px;
   margin-top: 30px;
-  padding-bottom: 100px;
-}
+  padding-bottom: 100px; }
 
 .ansel img {
   width: 320px;
-  height: 402px;
-}
+  height: 402px; }
 
 cite {
   color: white;
-  align-self: center;
-}
+  align-self: center; }
 
 .input {
   width: 320px;
   border-radius: 6px;
   background-color: rgba(58, 58, 58, 0.349);
-  color: white;
-}
+  color: white; }
 
 summary,
 h3 {
   color: white;
   font-family: "Roboto", sans-serif;
-  padding-left: 20px;
-}
+  padding-left: 20px; }
 
 details ul li {
   color: white;
   font-family: "Roboto", sans-serif;
-  padding-left: 30px;
-}
+  padding-left: 30px; }
 
 .cards-container-custom {
   height: 100%;
@@ -312,68 +262,42 @@ details ul li {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-items: center;
-
   grid-gap: 15px;
-  padding: 0px 15px;
-}
+  padding: 0px 15px; }
 
 .hire-us-main {
   height: 110vh;
-  background-image: linear-gradient(
-    black,
-    rgb(27, 27, 27),
-    rgb(99, 89, 63),
-    rgb(88, 80, 53),
-    rgb(131, 109, 50)
-  );
-}
+  background-image: linear-gradient(black, #1b1b1b, #63593f, #585035, #836d32); }
 
 .card:hover {
-  transform: translateY(3px);
-}
+  transform: translateY(3px); }
 
 @media screen and (max-width: 768px) {
   html {
-    width: 100%;
-  }
-
+    width: 100%; }
   header {
-    max-width: 100%;
-  }
-
+    max-width: 100%; }
   #ejemplos {
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-around;
-  }
-
+    justify-content: space-around; }
   .ejemplos {
     height: 200px;
-    width: 100px;
-  }
-
+    width: 100px; }
   .hero {
-    width: 100%;
-  }
-
+    width: 100%; }
   .geo-container {
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
-    width: 100%;
-  }
-
+    width: 100%; }
   iframe {
     width: 100%;
-    height: 170px;
-  }
-
+    height: 170px; }
   .map {
     width: 100%;
     height: 170px;
-    margin-left: 8px;
-  }
-
+    margin-left: 8px; }
   header {
     display: flex;
     flex-direction: row;
@@ -381,9 +305,7 @@ details ul li {
     justify-content: flex-start;
     max-width: 100%;
     height: auto;
-    align-items: flex-start;
-  }
-
+    align-items: flex-start; }
   nav ul {
     display: flex;
     flex-direction: row;
@@ -391,152 +313,88 @@ details ul li {
     align-items: center;
     max-width: 100%;
     font-size: 9px;
-    padding-left: 0;
-  }
-
+    padding-left: 0; }
   nav ul li {
     letter-spacing: 0px;
-    max-width: 100%;
-  }
-
+    max-width: 100%; }
   .logo-letters {
     width: 30px;
-    font-size: 15px;
-  }
-
+    font-size: 15px; }
   .footer-container {
     width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-  }
-
+    justify-content: center; }
   nav {
     max-width: 100%;
-    margin: unset;
-  }
-
+    margin: unset; }
   .videos-container {
     flex-direction: column;
-    flex-wrap: wrap;
-  }
-
+    flex-wrap: wrap; }
   .videos {
-    max-width: 100%;
-  }
-
+    max-width: 100%; }
   .pictures img {
-    max-width: 100%;
-  }
-
+    max-width: 100%; }
   #work-team {
-    max-width: 100%;
-  }
-
+    max-width: 100%; }
   .our-tech {
     flex-direction: column;
-    flex-wrap: wrap;
-  }
-
+    flex-wrap: wrap; }
   .our-tech img {
-    max-width: 90%;
-  }
-
+    max-width: 90%; }
   .about-us-video video {
-    max-width: 100%;
-  }
-
+    max-width: 100%; }
   .cards-container-custom {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-  }
-
+    flex-wrap: wrap; }
   .hire-us-main {
     height: 2350px;
-    width: 100%;
-  }
-
+    width: 100%; }
   div h3 {
-    font-size: 10px;
-  }
-
+    font-size: 10px; }
   .footer-logos {
     flex-direction: column;
-    margin: unset;
-  }
-
+    margin: unset; }
   .footer-container {
     align-items: center;
-    text-align: center;
-  }
-
+    text-align: center; }
   .footer-container p {
     margin: unset;
-    font-size: 10px;
-  }
-
+    font-size: 10px; }
   .footer-container img {
-    margin: unset;
-  }
-
+    margin: unset; }
   .footer-container h3 {
-    padding: 10px;
-  }
-
+    padding: 10px; }
   #contacto-footer {
-    padding: 15px;
-  }
-
+    padding: 15px; }
   .geo-text {
     padding: unset;
     font-size: 10px;
-    max-width: 100%;
-  }
-
+    max-width: 100%; }
   h2.logo-letters {
     padding: unset;
-    font-size: 7px;
-  }
-
+    font-size: 7px; }
   .h1-span {
-    font-size: 7px;
-  }
-
+    font-size: 7px; }
   img.logo {
     padding: unset;
     width: 30px;
-    height: 30px;
-  }
-
+    height: 30px; }
   .geo-text ul {
-    padding: unset;
-  }
-
+    padding: unset; }
   .contact-logos {
-    padding: 100px;
-  }
-
+    padding: 100px; }
   .contact-logos p {
-    padding: unset;
-  }
-
+    padding: unset; }
   p {
-    text-align: center;
-  }
-
+    text-align: center; }
   h2 {
-    text-align: center;
-  }
-
+    text-align: center; }
   .ansel {
-    padding-left: 135px;
-  }
-}
+    padding-left: 135px; } }
 
 @media screen and (max-width: 357px) {
   nav li {
-    padding: 7px;
-  }
-}
+    padding: 7px; } }

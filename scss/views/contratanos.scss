@@ -1,0 +1,38 @@
+summary,
+h3 {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  padding-left: 20px;
+}
+
+details ul li {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  padding-left: 30px;
+}
+
+.cards-container-custom {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+
+  grid-gap: 15px;
+  padding: 0px 15px;
+}
+
+.hire-us-main {
+  height: 110vh;
+  background-image: linear-gradient(
+    black,
+    rgb(27, 27, 27),
+    rgb(99, 89, 63),
+    rgb(88, 80, 53),
+    rgb(131, 109, 50)
+  );
+}
+
+.card:hover {
+  transform: translateY(3px);
+}

@@ -1,0 +1,38 @@
+.about-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-us img {
+  justify-content: center;
+  margin: 10px;
+  border-color: white;
+  border-radius: 20px;
+  border-style: double;
+  width: 1314px;
+  height: 410px;
+}
+
+.our-tech {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.our-tech img {
+  padding: 5px;
+}
+
+.about-us-video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.about-us-video video {
+  width: 763px;
+  height: 402px;
+}

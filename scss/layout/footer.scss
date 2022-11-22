@@ -1,0 +1,41 @@
+.footer-logos img {
+  width: 20px;
+  height: 20px;
+}
+
+.footer-container {
+  width: 100%;
+  min-height: 90px;
+  display: flex;
+  background-color: rgb(117, 117, 117);
+}
+
+.texto-footer {
+  font-family: "Roboto", sans-serif;
+}
+
+.footer-logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.footer-logos img {
+  margin: 25px;
+}
+
+#contacto-footer {
+  font-family: "Roboto", sans-serif;
+  padding-left: 30px;
+}
+
+.footer-logos a:hover {
+  background-color: rgb(61, 61, 61);
+}
+
+nav ul li a:hover {
+  background-color: rgb(133, 133, 133);
+  border-radius: 8px;
+}

@@ -1,0 +1,78 @@
+.hero {
+  width: 100%;
+  height: 550px;
+  background: url(../assets/images/hero.jpg) no-repeat center/cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.carousel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.img-carousel-1 {
+  width: 444px;
+  height: 345px;
+  padding-right: 65px;
+}
+
+.img-carousel-2 {
+  width: 444px;
+  height: 345px;
+  padding-left: 65px;
+}
+
+.carousel-text-1 h3,
+.carousel-text-1 p {
+  font-family: "Roboto", sans-serif;
+  padding-left: 65px;
+  color: aliceblue;
+}
+
+.carousel-text-2 h3,
+.carousel-text-2 p {
+  font-family: "Roboto", sans-serif;
+  padding-right: 100px;
+  color: aliceblue;
+}
+
+#ejemplos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 100px;
+}
+.ejemplos {
+  width: 267px;
+  height: 715px;
+  padding: 1px;
+}
+
+.geo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.geo-text {
+  font-family: "Roboto", sans-serif;
+  padding-left: 80px;
+  color: aliceblue;
+}
+
+.geo-text ul li {
+  line-height: 4em;
+}
+.map {
+  padding-right: 100px;
+}
