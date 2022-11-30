@@ -396,3 +396,7 @@ details ul li {
 @media screen and (max-width: 357px) {
   nav li {
     padding: 7px; } }
+
+cite {
+  color: #949393;
+  font-weight: bold; }

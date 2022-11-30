@@ -1,0 +1,8 @@
+@mixin letterChange($font-color, $font-weight) {
+  color: $font-color;
+  font-weight: $font-weight;
+}
+
+cite {
+  @include letterChange(rgb(148, 147, 147), bold);
+}
