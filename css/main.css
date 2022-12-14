@@ -16,38 +16,6 @@ a {
 main {
   background-color: black; }
 
-.logo {
-  padding-left: 10px;
-  display: inline; }
-
-.logo-letters {
-  display: inline;
-  font-family: "Aclonica";
-  width: 240px;
-  color: black;
-  font-size: 25px;
-  font-weight: 200; }
-
-.h1-span {
-  font-weight: 800;
-  font-size: small; }
-
-header {
-  height: 67px;
-  width: 100%;
-  background-color: rgba(236, 236, 236, 0.966); }
-
-nav {
-  display: inline;
-  float: right;
-  margin-top: 40px;
-  margin-right: 450px;
-  letter-spacing: 2px; }
-
-nav li {
-  display: inline;
-  padding: 15px; }
-
 .footer-logos img {
   width: 20px;
   height: 20px; }
@@ -78,8 +46,8 @@ nav li {
 .footer-logos a:hover {
   background-color: #3d3d3d; }
 
-nav ul li a:hover {
-  background-color: #858585;
+a.nav-link:hover {
+  color: white;
   border-radius: 8px; }
 
 .hero {

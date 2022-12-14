@@ -35,7 +35,7 @@
   background-color: rgb(61, 61, 61);
 }
 
-nav ul li a:hover {
-  background-color: rgb(133, 133, 133);
+a.nav-link:hover {
+  color: rgb(255, 255, 255);
   border-radius: 8px;
 }

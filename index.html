@@ -25,26 +25,48 @@
   </head>
   <body>
     <!----------------------------------- HEADER ------------------------------ -->
-    <header>
-      <a href="index.html"
-        ><img
-          class="logo"
-          src="./assets/images/main-logo.jpg"
-          alt="logo-principal"
-      /></a>
-      <h2 class="logo-letters">LM <span class="h1-span">PRODUCCIONES</span></h2>
-
-      <!--------------------------------- NAV ------------------------------------>
-      <nav>
-        <ul>
-          <li><a href="index.html">Inicio</a></li>
-          <li><a href="./pages/muestras.html">Muestras</a></li>
-          <li><a href="./pages/nosotros.html">Nosotros</a></li>
-          <li><a href="./pages/contacto.html">Contacto</a></li>
-          <li><a href="./pages/contratanos.html">CONTRATAR</a></li>
-        </ul>
+    <header class="header">
+      <nav
+        class="navbar fixed-top navbar-expand-lg"
+        style="background-color: #a1a1a1bd"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./assets/images/mail-logo.png" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/muestras.html">MUESTRAS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/nosotros.html">NOSOTROS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/contacto.html">CONTACTO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/contratanos.html">CONTRATANOS</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
-      </header>
+    </header>
       <!--------------------------------- MAIN ------------------------------------>
       <main>
         <div class="hero">
@@ -66,21 +88,21 @@
       <img src="./assets/images/carrousel-1.jpg" class="d-block w-100" alt="pareja-en-muelle">
       <div class="carousel-caption d-none d-md-block">
         <h5>Fantasía</h5>
-        <p>Some representative placeholder content for the first slide.</p>
+        <p>El momento que siempre soñaste al alcance de nuestras posibilidades</p>
       </div>
     </div>
     <div class="carousel-item">
       <img src="./assets/images/carrousel-1-2.jpg" class="d-block w-100" alt="hombre-en-lago">
       <div class="carousel-caption d-none d-md-block">
         <h5>Calidad</h5>
-        <p>Some representative placeholder content for the second slide.</p>
+        <p>Los mejores equipos disponibles para que tu momento sea único</p>
       </div>
     </div>
     <div class="carousel-item">
       <img src="./assets/images/carousel-2.jpg" class="d-block w-100" alt="mesa-con-cathering">
       <div class="carousel-caption d-none d-md-block">
         <h5>Profesionalismo</h5>
-        <p>Some representative placeholder content for the third slide.</p>
+        <p>Profesionales capacitados para que nunca olvides estos recuerdos</p>
       </div>
     </div>
   </div>
@@ -135,8 +157,8 @@
       /></a>
       <h2 class="logo-letters">LM <span class="h1-span">PRODUCCIONES</span></h2>
       <div class="texto-footer">
-      <p>Derechos reservados</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+      <p>LM Producciones</p>
+      <p> © Todos los derechos reservados</p>
     </div>
       <p id="contacto-footer">Contacto</p>
       <div class="footer-logos">

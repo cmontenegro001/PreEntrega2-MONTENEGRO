@@ -12,6 +12,12 @@
       name="description"
       content="Somos un equipo dedicado, integramente formado por profesionales calificados para desempeñar una gran labor para el cliente y los eventos que requiera"
     />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="../css/main.css" />
     <link
       rel="stylesheet"
@@ -27,22 +33,48 @@
     <title>Nosotros</title>
   </head>
   <body>
-    <header>
-      <a href="../index.html"
-        ><img
-          class="logo"
-          src="../assets/images/main-logo.jpg"
-          alt="logo-principal"
-      /></a>
-      <h2 class="logo-letters">LM <span class="h1-span">PRODUCCIONES</span></h2>
-      <nav>
-        <ul>
-          <li><a href="../index.html">Inicio</a></li>
-          <li><a href="muestras.html">Muestras</a></li>
-          <li><a href="nosotros.html">Nosotros</a></li>
-          <li><a href="contacto.html">Contacto</a></li>
-          <li><a href="contratanos.html">CONTRATAR</a></li>
-        </ul>
+    <header class="header">
+      <nav
+        class="navbar fixed-top navbar-expand-lg"
+        style="background-color: #a1a1a1bd"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./assets/images/mail-logo.png" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html"
+                  >INICIO</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="muestras.html">MUESTRAS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="nosotros.html">NOSOTROS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">CONTACTO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contratanos.html">CONTRATANOS</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </header>
     <main>
@@ -120,8 +152,8 @@
           LM <span class="h1-span">PRODUCCIONES</span>
         </h2>
         <div class="texto-footer">
-          <p>Derechos reservados</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+          <p>LM Producciones</p>
+          <p>© Todos los derechos reservados</p>
         </div>
         <p id="contacto-footer">Contacto</p>
         <div class="footer-logos">
@@ -140,5 +172,10 @@
         </div>
       </div>
     </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
