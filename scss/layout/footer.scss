@@ -31,8 +31,38 @@
   padding-left: 30px;
 }
 
-.footer-logos a:hover {
-  background-color: rgb(61, 61, 61);
+.footer-logos a.fb-footer:hover {
+  background-image: linear-gradient(
+    rgb(5, 103, 252),
+    rgb(59, 136, 252),
+    rgb(109, 165, 250),
+    rgb(160, 197, 252),
+    rgb(222, 235, 253)
+  );
+  border-radius: 10px;
+}
+
+.footer-logos a.ig-footer:hover {
+  background-image: linear-gradient(
+    rgb(79, 91, 213),
+    rgb(214, 41, 118),
+    rgb(150, 47, 191),
+    rgb(250, 126, 30),
+    rgb(254, 218, 117)
+  );
+
+  border-radius: 10px;
+}
+
+.footer-logos a.wp-footer:hover {
+  background-image: linear-gradient(
+    rgb(8, 253, 0),
+    rgb(64, 250, 58),
+    rgb(109, 248, 104),
+    rgb(166, 248, 164),
+    rgb(245, 255, 245)
+  );
+  border-radius: 10px;
 }
 
 a.nav-link:hover {
