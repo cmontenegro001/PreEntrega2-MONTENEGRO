@@ -1,5 +1,12 @@
 #nosotrosMain {
   margin-top: 65px;
+  background-image: linear-gradient(
+    black,
+    rgb(27, 27, 27),
+    rgb(99, 89, 63),
+    rgb(88, 80, 53),
+    rgb(131, 109, 50)
+  );
 }
 
 .about-us {
@@ -28,6 +35,7 @@
 .our-tech img {
   padding: 5px;
   margin-left: 19px;
+  border-radius: 15px;
 }
 
 .about-us-video {
@@ -40,4 +48,9 @@
 .about-us-video video {
   width: 763px;
   height: 402px;
+}
+
+.our-tech-p {
+  text-align: center;
+  margin-top: 40px;
 }

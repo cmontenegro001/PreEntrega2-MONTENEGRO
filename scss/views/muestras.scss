@@ -1,6 +1,13 @@
 #muestrasMain {
   margin-top: 65px;
   height: 395vh;
+  background-image: linear-gradient(
+    black,
+    rgb(27, 27, 27),
+    rgb(99, 89, 63),
+    rgb(88, 80, 53),
+    rgb(131, 109, 50)
+  );
 }
 h2 {
   font-family: "Roboto", sans-serif;
@@ -23,6 +30,8 @@ h2 {
 .pictures img {
   width: 435px;
   height: 500px;
+  padding-left: 40px;
+  padding-bottom: 10px;
 }
 
 p {

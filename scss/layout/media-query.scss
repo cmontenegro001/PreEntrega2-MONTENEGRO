@@ -94,6 +94,7 @@
 
   .pictures img {
     max-width: 100%;
+    padding-left: unset;
   }
 
   #work-team {
@@ -183,7 +184,7 @@
   }
 
   .contact-logos {
-    padding: 100px;
+    padding: 50px;
   }
 
   .contact-logos p {
@@ -204,6 +205,23 @@
 
   #muestrasMain {
     height: auto;
+  }
+
+  #clickHereBtn {
+    color: white;
+    margin-left: unset;
+  }
+
+  #phoneNumber {
+    margin-left: unset;
+  }
+
+  .input {
+    width: 270px;
+  }
+
+  #contactoMain {
+    height: 780px;
   }
 }
 
