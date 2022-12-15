@@ -76,8 +76,11 @@ a.nav-link:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: rgba(255, 255, 255, 0.795);
   font-family: "Roboto", sans-serif; }
+
+#darkWord {
+  color: rgba(255, 255, 255, 0.993); }
 
 .carousel {
   display: flex;
